@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.playerone {
+  color: #ff3131;
+}
+.playertwo {
+  color: #32cd32;
+}
+body {
+  background: linear-gradient(to right, #0a0a0a, #1a1a2e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+.boxes {
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid #00ffff;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+  color: black;
+}
+.boxes:hover {
+  cursor: pointer;
+}
+.box-container {
+  margin-top: 1rem;
+  width: 23rem;
+  height: 18rem;
+  column-gap: 0.2rem;
+  row-gap: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.reset {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 2rem;
+  padding: 0.1rem;
+  cursor: pointer;
+  background: linear-gradient(to right, #6a0dad, #007bff);
+  border-radius: 0.4rem;
+  border: 1px solid #007bff;
+}
